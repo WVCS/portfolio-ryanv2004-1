@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  
+
+  <div class="Top"> </div>
+  
+  
+  
+ 
+  
+
+
+<ul><font size="+1.5"><b>
+  <li><a href="Images/button.png">About</a></li>
+  <li><a href="Images/button.png">Location</a></li>
+  <li><a href="Images/button.png">Tickets</a></li></b></font>
+
+</ul>
+
+
+<div class="grid-container">
+  <div class="item1"></div>
+  <div class="item2"></div>
+  <div class="item3"></div>  
+
+    
+</div>
+  
+  
+  
+  
+  
+  
+
+  
+</body>
+<style>
+
+div.Top{
+background-color: black;
+height: 200px;
+width: 1890px;
+top: 0px;
+
+
+}
+
+.logo{
+Position: absolute;
+top: 40px;
+Left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  width: 1890px;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 270px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto ;
+  grid-gap: 10px;
+  background-color: white ;
+
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  height: 300px;
+}
+
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.item2 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.item3 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+div.nav{
+font-size: +15px
+}
+
+
+
+
+
+
+li:hover {
+  background-image: "Images/button.png";
+  background-size: 100% 100%;
+  color: blue;
+  animation: spring 300ms ease-out;
+  text-shadow: 0 -1px 0 #ef816c;
+	font-weight: bold;
+}li:active {
+  transform: translateY(4px);
+}
+
+@keyframes spring {
+  15% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: scale(1.2, 1.1);
+  }
+  40% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: scale(0.95, 0.95);
+  }
+  75% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: scale(1.05, 1);
+  }
+  100% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: scale(1, 1);
+  }
+}
+
+</style>
+</html>
