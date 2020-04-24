@@ -24,9 +24,9 @@
   
 <img src="Images/Logo.png" class="img2"> </img>
 
+<img src="https://media.giphy.com/media/3oeRsQkLiQQcJPSbe4/giphy.gif" class="gif"> </img>
 
-
-
+<div class="ul">
 <ul><font size="+1.5"><b>
 
   <li><a class="active" href="Event.html.html">Home</a></li>
@@ -36,7 +36,7 @@
   <li><a href="MoreInfo.html.html">More Info</a></li></b>
    <li><b><a href="Sponsors.html">Sponsors</a></li></b></font>
 
-
+</div>
 
 </ul>
 
@@ -57,7 +57,7 @@
     
 
 </div>
-<font color="white"> <div class="description"><p>   Welcome to the official page for the Corona-Thon celebration! Recent outbreaks of COVID-19 and urges from the World Health Organization will not deter our efforts to celebrate at two locations in the coming weeks. The two locations, which you can learn more about on the more info tab, will occur on the east and west coast on the same days, from Friday March 20 to Tuesday on March 24. In the case of police activity or governmental attempts to arrest the participants, we have provided a special purchase option including a getaway military grade Blackbird Jet. For more info on prices, please see the Tickets tab. There will be music, activities, food, drinks, and a resort available, but only while supplies last, so please buy your tickets soon. </p></div></font>
+<font color="white"> <div class="description"><p>   Welcome to the official page for the Corona-Thon celebration! Recent outbreaks of COVID-19 and urges from the World Health Organization will not deter our efforts to celebrate at two locations in the coming weeks. The two locations, which you can learn more about on the more info tab, will occur on the east and west coast on the same days, from Friday March 20 to Tuesday on March 24. In the case of police activity or governmental attempts to arrest the participants, we have provided a special purchase option including a getaway military grade Blackbird Jet. For more info on prices, please see the Tickets tab. There will be music, activities, food, drinks, and a resort available, but only while supplies last, so buy! </p></div></font>
   <img src="Images/party.jpg" class="party"> </img>
 
 <img src="Images/party2.jpg" class="party2"> </img>
@@ -68,10 +68,16 @@
 <style>
 
 
-
+.gif{
+top:0px;
+left: 00px;
+position: absolute;
+height: 200px;
+width: 1370px;
+}
 div.Top{
 
-background-color: white ;
+background-color: black ;
 
 height: 200px;
 
@@ -116,7 +122,49 @@ left: 355px;
 
 
 
+@media only screen and (max-width: 768px) {
 
+  .img1{
+display: none;
+}
+.img2{
+display: none;
+
+}
+  li a{
+height: auto;
+font-size: 35px;
+left: 400px;
+hover: white;
+top: 0px;
+	}
+  ul{
+  height: 100%;
+  display: flex;
+  font-size: 30px;
+  top: 0px;
+  }
+
+  div.description{
+font-size: 45px;
+height: 450px;
+border: none;
+left: 500px;
+top: -50px;
+  }
+  .fire{
+  display: none;
+  }
+  .coronathon{
+  display: none;
+  }
+ .party2{
+left: 400px;
+position: absolute;
+display: none;
+ }
+
+}
 
 
 
